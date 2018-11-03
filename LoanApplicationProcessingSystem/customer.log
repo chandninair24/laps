@@ -1,0 +1,21 @@
+2018-11-03-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-11-03-main-ERROR-root      :exception occured
+com.capgemini.laps.exception.CustomerException: Tehnical problem occured refer log
+	at com.capgemini.laps.dao.CustomerDaoImpl.addCustomerDetails(CustomerDaoImpl.java:80)
+	at com.capgemini.laps.service.CustomerServiceImpl.addCustomerDetails(CustomerServiceImpl.java:27)
+	at com.capgemini.laps.ui.MainApp.main(MainApp.java:65)
+2018-11-03-main-ERROR-root      :exception occured
+com.capgemini.laps.exception.CustomerException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.capgemini.laps.service.CustomerServiceImpl.validateCustomer(CustomerServiceImpl.java:74)
+	at com.capgemini.laps.ui.MainApp.populateCustomerBean(MainApp.java:345)
+	at com.capgemini.laps.ui.MainApp.main(MainApp.java:59)
+2018-11-03-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-11-03-main-ERROR-root      :exception occured
+com.capgemini.laps.exception.CustomerException: Tehnical problem occured refer log
+	at com.capgemini.laps.dao.CustomerDaoImpl.addCustomerDetails(CustomerDaoImpl.java:80)
+	at com.capgemini.laps.service.CustomerServiceImpl.addCustomerDetails(CustomerServiceImpl.java:27)
+	at com.capgemini.laps.ui.MainApp.main(MainApp.java:65)
